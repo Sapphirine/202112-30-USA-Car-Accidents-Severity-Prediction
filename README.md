@@ -177,4 +177,13 @@ This directory contains
 ```
 ### final_project
 This directory is the whole Django project.
+Key files：
+```
+    final_project/final/dt.pkl          -> decision tree model file
+    final_project/final/predict.py      -> py file that unpacks model file, requests API information, predicts the severity level with [lon, lat], and return key API features and prediction result
+    final_project/final/urls.py         -> py file to process url request
+    final_project/final/view.py         -> py file to accept url request and return content to that request
+    final_project/static/images         -> directory that store pictures our website needs
+    final_project/templates/index.html  -> html file that builds the front-end of our project
+```
 
