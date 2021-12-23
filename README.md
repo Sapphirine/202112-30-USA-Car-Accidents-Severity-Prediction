@@ -27,8 +27,9 @@ We used the left features to train Logistic regression, SVM, Decision Tree, Grad
 
 1. Download the whole final_project directory
 2. Start the system server
-    1. Open this directory and open a cmd terminal there.
-    2. Try to deploy the server by using the command below:
+    1. Install Django (https://docs.djangoproject.com/en/4.0/topics/install/#installing-official-release)
+    2. Open this directory and open a cmd terminal there.
+    3. Try to deploy the server by using the command below:
         ```
         python manage.py runserver 
         ```
@@ -53,7 +54,7 @@ We used the left features to train Logistic regression, SVM, Decision Tree, Grad
         Starting development server at http://<IP Address>:<port>/
         Quit the server with CTRL-BREAK.
         ```
-    3. Use our application via browser
+    4. Use our application via browser
         Please use <IP Address> and <port> you get from above section and enter the following URL in the browser URL bar to use our application:
         ```
         http://<IP Address>:<port>/homepage/
