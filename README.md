@@ -34,13 +34,13 @@ We used the left features to train Logistic regression, SVM, Decision Tree, Grad
         ```
         If you get any 
         `ImportError: No module named <modual name>`
-        Please use the following command:
+        please use the following command:
         ```
         pip install <modual name>
         ```
-        Packages we used and you may need to install are following:
+        Packages we used and you may need to install are listed below:
         ```
-        overpy datetime time tzwhere pytz pandas requests json geopy numpy as np sklearn joblib
+        overpy datetime time tzwhere pytz pandas requests json geopy numpy sklearn joblib
         ```
         untill you see something like:
         ```
